@@ -15,7 +15,7 @@ Certifique-se de ter o Docker e o Docker Compose instalados em sua máquina.
 2. Navegue até o diretório clonado:
 
    ```
-   cd desafio-nginx-node-mysql
+   cd fullcycle-docker-challenge-02
    ```
 
 3. Execute o seguinte comando para iniciar os serviços:
