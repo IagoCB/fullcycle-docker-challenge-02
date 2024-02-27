@@ -8,7 +8,7 @@ RUN wget -O /usr/local/bin/wait-for https://raw.githubusercontent.com/eficode/wa
     && chmod +x /usr/local/bin/wait-for
 
 # Definindo o diretório de trabalho
-WORKDIR /app
+WORKDIR /usr/src/app 
 
 # Copiando os arquivos do aplicativo
 COPY . .
