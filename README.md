@@ -38,10 +38,7 @@ Você verá a mensagem "Full Cycle Rocks!" junto com a lista de nomes cadastrado
 - `nginx/nginx.conf`: Arquivo de configuração do Nginx como proxy reverso.
 - `node/Dockerfile`: Arquivo de configuração do Docker para a aplicação Node.js.
 - `node/index.js`: Código-fonte da aplicação Node.js.
-- `database/Dockerfile`: Arquivo de configuração do Docker para o MySQL.
 - `database/schema.sql`: Script SQL para criar a tabela e inserir dados iniciais no MySQL.
-
-Certifique-se de ter o diretório `mysql` vazio em seu projeto para que o MySQL possa criar os arquivos necessários. Este diretório é usado como volume para armazenar os dados do banco de dados MySQL.
 
 ## Observações
 
